@@ -2,8 +2,6 @@ import os
 import sys
 import subprocess
 
-print('这是一个测试的脚本，谨慎使用')
-
 folder=input('输入需要转码的目录: ')
 folder=folder.replace('\\', '/')
 while not os.path.exists(folder) or not os.path.isdir(folder):
