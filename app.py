@@ -17,6 +17,7 @@ if(len(fileList)==0):
     print('这个目录下没有任何媒体')
     sys.exit(1)
 print('搜索到的媒体文件列表如下')
+fileList.sort()
 for item in fileList:
     print(item)
 output=input('输出的目录: ')
