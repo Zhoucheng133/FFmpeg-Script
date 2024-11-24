@@ -32,6 +32,4 @@ for item in fileList:
     print(f"命令: {cmd}")
     subprocess.run(cmd, cwd=folder, shell=True)
 
-item=fileList[0]
-
 print('执行完成')
