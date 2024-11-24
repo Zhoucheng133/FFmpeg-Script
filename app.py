@@ -35,6 +35,3 @@ for item in fileList:
 item=fileList[0]
 
 print('执行完成')
-
-# e:\视频\TV动画\白圣女与黑牧师
-# d:\导出
